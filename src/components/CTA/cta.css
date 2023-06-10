@@ -1,0 +1,118 @@
+#cta {
+  width: 1440px;
+  height: 512px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(97.1deg, #3c36ce 22.14%, #a64eee 106.45%);
+}
+
+#cta1 {
+  position: absolute;
+  width: 1456px;
+  height: 296px;
+  bottom: 0;
+  left: -290px;
+  background: linear-gradient(
+    180deg,
+    #ffffff -227.87%,
+    rgba(255, 255, 255, 0) 35.28%
+  );
+  transform: rotate(45deg);
+}
+
+#cta2 {
+  position: absolute;
+  width: 1456px;
+  height: 296px;
+  left: -462px;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    #ffffff -227.87%,
+    rgba(255, 255, 255, 0) 35.28%
+  );
+  transform: rotate(45deg);
+}
+
+#cta3 {
+  position: absolute;
+  width: 1456px;
+  height: 296px;
+  left: -632px;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    #ffffff -227.87%,
+    rgba(255, 255, 255, 0) 35.28%
+  );
+  transform: rotate(45deg);
+}
+
+#cta4 {
+  position: absolute;
+  width: 1456px;
+  height: 296px;
+  left: 520px;
+  background: linear-gradient(
+    180deg,
+    #ffffff -227.87%,
+    rgba(255, 255, 255, 0) 19.28%
+  );
+  transform: rotate(45deg);
+}
+
+#Container-cta {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#Container-cta h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+#Container-cta p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #e6e6e6;
+  width: 815px;
+  height: 64px;
+}
+
+#Container-cta button {
+  margin-top: 40px;
+  width: 160px;
+  height: 48px;
+  background: #10c9ff;
+  border-radius: 40px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+#Container-cta button:hover {
+  background: #01c4ff;
+  transition: 0.1s ease;
+  color: whitesmoke;
+}
