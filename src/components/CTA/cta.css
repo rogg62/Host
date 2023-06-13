@@ -13,12 +13,11 @@
   position: absolute;
   width: 1456px;
   height: 296px;
-  bottom: 0;
-  left: -290px;
+  left: -962px;
   background: linear-gradient(
     180deg,
     #ffffff -227.87%,
-    rgba(255, 255, 255, 0) 35.28%
+    rgba(255, 255, 255, 0) 19.28%
   );
   transform: rotate(45deg);
 }
@@ -27,12 +26,11 @@
   position: absolute;
   width: 1456px;
   height: 296px;
-  left: -462px;
-  bottom: 0;
+  left: -810px;
   background: linear-gradient(
     180deg,
     #ffffff -227.87%,
-    rgba(255, 255, 255, 0) 35.28%
+    rgba(255, 255, 255, 0) 19.28%
   );
   transform: rotate(45deg);
 }
@@ -41,12 +39,11 @@
   position: absolute;
   width: 1456px;
   height: 296px;
-  left: -632px;
-  bottom: 0;
+  left: -640px;
   background: linear-gradient(
     180deg,
     #ffffff -227.87%,
-    rgba(255, 255, 255, 0) 35.28%
+    rgba(255, 255, 255, 0) 19.28%
   );
   transform: rotate(45deg);
 }
@@ -109,10 +106,4 @@
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-}
-
-#Container-cta button:hover {
-  background: #01c4ff;
-  transition: 0.1s ease;
-  color: whitesmoke;
 }

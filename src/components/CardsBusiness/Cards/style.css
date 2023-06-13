@@ -1,0 +1,55 @@
+#bCard {
+  width: 400px;
+  height: 672px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+#bCardImage {
+  width: 400px;
+  height: 480px;
+  background: #ebebeb;
+  border-radius: 16px;
+}
+
+#bCardImage:hover {
+  transition: ease-in-out 0.3s;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#bCardTitle {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+#bCardTitle h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #2e2e2e;
+  margin: 0;
+  height: 96px;
+}
+
+#bCardTitle p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #808080;
+  margin: 0;
+}
