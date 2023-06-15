@@ -1,0 +1,33 @@
+#commentFeedBack {
+  width: 712px;
+  height: 392px;
+}
+
+#commentFeedBack h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #2e2e2e;
+}
+
+#commentFeedBack img {
+  width: 152px;
+  height: 24px;
+}
+
+#paragraf {
+  width: 100%;
+  height: auto;
+}
+
+#paragraf p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+}

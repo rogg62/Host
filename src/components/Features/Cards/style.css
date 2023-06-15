@@ -1,0 +1,101 @@
+.CardFeatures {
+  width: 400px;
+  height: 672px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+
+#CardFeatures {
+  background: linear-gradient(97.1deg, #3c36ce 22.14%, #a64eee 106.45%);
+}
+
+#CardFeatures #CardFeaturesTitle h1 {
+  color: white;
+}
+
+#CardFeatures #CardFeaturesTitle h2 {
+  color: white;
+}
+
+#CardFeaturesTitle {
+  width: auto;
+  height: auto;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+#CardFeaturesTitle h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #2e2e2e;
+  margin: 0;
+}
+
+#CardFeaturesTitle h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  text-align: center;
+  color: #2e2e2e;
+  margin: 0;
+}
+
+#CardFeaturesTable {
+  width: 304px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+#CardFeatures #CardFeaturesTable span {
+  color: white;
+}
+
+#CardFeaturesTable span {
+  font-family: "Poppins";
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+}
+
+.CardFeatures button {
+  margin-top: 40px;
+  width: 160px;
+  height: 48px;
+  background: #10c9ff;
+  border-radius: 40px;
+  border: none;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
