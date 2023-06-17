@@ -1,10 +1,6 @@
 import React from "react";
 import "./FeedBack.css";
-import { NavLink, BrowserRouter, Route, Routes } from "react-router-dom";
-
-import Comment1 from "./Comment/Comment1";
-import Comment2 from "./Comment/Comment2";
-import Comment3 from "./Comment/Comment3";
+import { NavLink, Outlet } from "react-router-dom";
 
 const FeedBack = () => {
   return (
@@ -18,51 +14,45 @@ const FeedBack = () => {
       </div>
 
       <div id="FeedContent">
-        <BrowserRouter>
-          <nav>
-            <NavLink
-              to="/"
-              className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : "pending"
-              }
-            >
-              <div id="avatar"></div>
-              <div id="infoName">
-                <h1>Shoo Phar Nhoe</h1>
-                <p>Kang Masak</p>
-              </div>
-            </NavLink>
-            <NavLink
-              to="/comment2"
-              className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : "pending"
-              }
-            >
-              <div id="avatar"></div>
-              <div id="infoName">
-                <h1>Shoo Phar Nhoe</h1>
-                <p>Kang Masak</p>
-              </div>
-            </NavLink>
-            <NavLink
-              to="/comment3"
-              className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : "pending"
-              }
-            >
-              <div id="avatar"></div>
-              <div id="infoName">
-                <h1>Shoo Phar Nhoe</h1>
-                <p>Kang Masak</p>
-              </div>
-            </NavLink>
-          </nav>
-          <Routes>
-            <Route path="/" element={<Comment1 />} />
-            <Route path="/comment2" element={<Comment2 />} />
-            <Route path="/comment3" element={<Comment3 />} />
-          </Routes>
-        </BrowserRouter>
+        <nav>
+          <NavLink
+          to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : "pending"
+            }
+          >
+            <div id="avatar"></div>
+            <div id="infoName">
+              <h1>Shoo Phar Nhoe</h1>
+              <p>Kang Masak</p>
+            </div>
+          </NavLink>
+          <NavLink
+            to="/comment2"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : "pending"
+            }
+          >
+            <div id="avatar"></div>
+            <div id="infoName">
+              <h1>Shoo Phar Nhoe</h1>
+              <p>Kang Masak</p>
+            </div>
+          </NavLink>
+          <NavLink
+            to="/comment3"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : "pending"
+            }
+          >
+            <div id="avatar"></div>
+            <div id="infoName">
+              <h1>Shoo Phar Nhoe</h1>
+              <p>Kang Masak</p>
+            </div>
+          </NavLink>
+        </nav>
+        <Outlet />
       </div>
     </section>
   );

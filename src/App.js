@@ -1,23 +1,25 @@
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //import Components
-import Header from "./components/Header/header";
-import CardsComponent from "./components/Cards/CardsComponent";
-import Features from "./components/Features/Features";
-import Business from "./components/CardsBusiness/Business";
-import FeedBack from "./components/FeedBack/FeedBack";
-import Cta from "./components/CTA/Cta";
-import Footer from "./components/Footer/Footer";
+import Home from "./pages/home/home";
+import Comment1 from "./components/FeedBack/Comment/Comment1";
+import Comment2 from "./components/FeedBack/Comment/Comment2";
+import Comment3 from "./components/FeedBack/Comment/Comment3";
+import Hosting from "./pages/hosting/hosting";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <CardsComponent />
-      <Features />
-      <Business />
-      <FeedBack />
-      <Cta />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />}>
+            <Route index element={<Comment1 />} />
+            <Route path="comment2" element={<Comment2 />} />
+            <Route path="comment3" element={<Comment3 />} />
+          </Route>
+          <Route path="/hosting" element={<Hosting />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
