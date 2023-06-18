@@ -1,7 +1,7 @@
 import React from "react";
 import "../style.css";
 //components
-import Header from "../../components/Header/header";
+import {Header1} from "../../components/Header/Headers"
 import CardsComponent from "../../components/Cards/CardsComponent";
 import Features from "../../components/Features/Features";
 import Business from "../../components/CardsBusiness/Business"
@@ -12,7 +12,7 @@ import Footer from "../../components/Footer/Footer"
 const Home = () => {
   return (
     <div id="page1">
-      <Header />
+      <Header1 />
       <CardsComponent />
       <Features />
       <Business />

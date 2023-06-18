@@ -1,0 +1,96 @@
+#CardList {
+  width: 608px;
+  height: 168px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 176px;
+  border-radius: 16px;
+}
+
+#CardList:hover {
+  background: #ffffff;
+  box-shadow: 0px 48px 160px rgba(51, 51, 51, 0.15);
+  border-radius: 16px;
+}
+
+#CardInfo2 {
+  width: 248px;
+  height: auto;
+  margin: 0;
+}
+
+#CardInfo2 h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #a34dec;
+  margin: 0;
+}
+
+#CardInfo2 p {
+  width: 248px;
+  text-align: left;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+  margin: 0;
+}
+
+#CardPrice {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+}
+
+#CardPrice h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #2e2e2e;
+  margin: 0;
+}
+
+#CardPrice button {
+  width: 120px;
+  height: 48px;
+  border: 1px solid #cccccc;
+  border-radius: 40px;
+  background: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #cccccc;
+}
+
+#CardPrice button:hover {
+  width: 120px;
+  height: 48px;
+  background: #10c9ff;
+  border-radius: 40px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}

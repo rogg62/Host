@@ -2,11 +2,9 @@ import React from "react";
 import "./header.css";
 import Menu from "../Menu/Menu";
 
-const Header = () => {
+const Header = ({title}) => {
   return (
     <header id="header">
-
-
       <Menu />
       <div id="headerEfeito1"></div>
       <div id="headerEfeito2"></div>
@@ -15,7 +13,7 @@ const Header = () => {
       <div id="headerEfeito5"></div>
 
       <div id="headerInfo">
-        <h1>Fastest and Secure Web Cloud Hosting</h1>
+        <h1>{title}</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
           purus sit

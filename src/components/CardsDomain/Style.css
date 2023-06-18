@@ -1,0 +1,51 @@
+#CardsDomain {
+  width: 1232px;
+  height: 1032px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#titleDomain {
+  width: 815px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#titleDomain h1 {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #2e2e2e;
+}
+
+#titleDomain p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #808080;
+  margin: 0;
+}
+
+#BoxDomain {
+  width: 100%;
+  margin-top: 40px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  justify-content: space-between;
+}
