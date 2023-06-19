@@ -72,18 +72,17 @@
 }
 
 #FeedContent a.active {
-    width: 400px;
-    height: 120px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  
-    gap: 24px;
-    text-decoration: none;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
-  }
+  gap: 24px;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 
 #FeedContent #avatar {
   width: 62px;
@@ -124,4 +123,29 @@
   width: 712px;
   height: 392px;
   border: 1px solid red;
+}
+
+#FeedContent nav a.pending2 {
+  width: 400px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 24px;
+  text-decoration: none;
+}
+
+#FeedContent a.active2 {
+  width: 400px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 24px;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }

@@ -1,0 +1,47 @@
+#Big {
+  width: 1232px;
+  height: 832px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#BigTitle {
+  width: 816px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+#BigTitle h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #2e2e2e;
+  margin: 0;
+}
+
+#BigTitle p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #808080;
+  margin: 0;
+}
+
+#BigBox {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
