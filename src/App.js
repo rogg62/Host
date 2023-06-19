@@ -8,6 +8,7 @@ import Comment2 from "./components/FeedBack/Comment/Comment2";
 import Comment3 from "./components/FeedBack/Comment/Comment3";
 import Hosting from "./pages/hosting/hosting";
 import Services from "./pages/Services/Services";
+import Princing from "./pages/Pricing/Princing";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/services/comment2" element={<Comment2 />} />
             <Route path="/services/comment3" element={<Comment3 />} />
           </Route>
+          <Route path="/pricing" element={<Princing />} />
         </Routes>
       </Router>
     </div>
