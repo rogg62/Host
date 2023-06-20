@@ -1,0 +1,50 @@
+#Help {
+  width: 1232px;
+  height: 1040px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#Help .div {
+  width: 608px;
+  height: 126px;
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+#Help .divImage {
+  width: 80px;
+  height: 80px;
+  background: #ebebeb;
+  border-radius: 8px;
+}
+
+#Help .divInfo {
+  width: 456px;
+  height: auto;
+}
+
+#Help .divInfo h1 {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #2e2e2e;
+}
+
+#Help .divInfo p {
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #808080;
+}
