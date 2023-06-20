@@ -1,15 +1,15 @@
 import React from "react";
 import "../style.css";
-import { Head1 } from "../../components/HeaderMin/Headers";
+import Headee from "../../components/Heade/Headee";
 import Help from "../../components/Help/Help";
-import Cta from "../../components/CTA/Cta";
+import Cta2 from "../../components/CTA2/Cta2"
 import Footer from "../../components/Footer/Footer";
 const About = () => {
   return (
     <section id="page1">
-      <Head1 />
+      <Headee />
       <Help />
-      <Cta />
+      <Cta2 />
       <Footer />
     </section>
   );
