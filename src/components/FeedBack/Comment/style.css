@@ -31,3 +31,14 @@
   line-height: 32px;
   color: #808080;
 }
+
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
+  #commentFeedBack {
+    width: 670px;
+    margin-right: 10px;
+  }
+
+  #paragraf p {
+    width: 650px;
+  }
+}

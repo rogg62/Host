@@ -48,3 +48,13 @@
   line-height: 32px;
   color: #808080;
 }
+
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
+  #Help {
+    width: 1080px;
+  }
+
+  #Help .div {
+    width: 535px;
+  }
+}

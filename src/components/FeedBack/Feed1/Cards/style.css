@@ -99,3 +99,9 @@
   line-height: 24px;
   color: #ffffff;
 }
+
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
+  .CardFeatures {
+    width: 345px;
+  }
+}

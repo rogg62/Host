@@ -122,7 +122,6 @@
 #CommentFeed {
   width: 712px;
   height: 392px;
-  border: 1px solid red;
 }
 
 #FeedContent nav a.pending2 {
@@ -148,4 +147,29 @@
   gap: 24px;
   text-decoration: none;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
+  #FeedBack {
+    width: 1080px;
+  }
+
+  #FeedContent {
+    width: 1080px;
+    gap: 0;
+  }
+
+  #FeedContent nav a.pending {
+    width: 350px;
+    height: 120px;
+  }
+
+  #FeedContent a.active {
+    width: 350px;
+    height: 120px;
+  }
+
+  #FeedContent #infoName h1 {
+    width: 200px;
+  }
 }

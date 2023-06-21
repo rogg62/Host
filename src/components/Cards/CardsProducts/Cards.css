@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  background: #ffffff;
+  background: #fff;
 }
 
 #title {
@@ -103,4 +103,18 @@
   text-align: center;
   color: #808080;
   margin: 0;
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
+  #CardsComponent {
+    width: 1080px;
+    height: auto;
+  }
+
+  #containerCards {
+    width: 1080px;
+    justify-content: center;
+    gap: 24px;
+    row-gap: 54px;
+  }
 }

@@ -94,3 +94,11 @@
   color: #ffffff;
   border: none;
 }
+
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
+  #CardList {
+    width: 530px;
+    justify-content: space-around;
+    gap: 0;
+  }
+}

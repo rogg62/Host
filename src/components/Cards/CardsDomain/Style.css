@@ -49,3 +49,15 @@
   row-gap: 40px;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
+  #CardsDomain {
+    width: 1080px;
+    height: auto;
+  }
+
+  #BoxDomain {
+    width: 1080px;
+    height: auto;
+  }
+}

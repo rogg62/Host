@@ -45,3 +45,17 @@
   flex-wrap: wrap;
   gap: 16px;
 }
+
+@media screen and (min-width: 1080px) and (max-width: 1439px) {
+  #Big {
+    width: 1080px;
+    height: auto;
+  }
+
+  #BigBox {
+    width: 1080px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+}
