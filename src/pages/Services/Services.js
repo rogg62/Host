@@ -1,12 +1,13 @@
 import React from "react";
 import "../style.css";
-import CardsComponent from "../../components/Cards/CardsComponent";
-import Features from "../../components/Features/Features";
-import BigIdeas from "../../components/BigIdeas/BigIdeas";
-import FeedBack2 from "../../components/Feed2/FeedBack2";
-import Cta from "../../components/CTA/Cta";
+//components
+import { Head1 } from "../../components/Header/Header2/Headers2";
+import CardsComponent from "../../components/Cards/CardsProducts/CardsComponent";
+import Features from "../../components/Features/Features"
+import BigIdeas from "../../components/Lists/BigIdeas/BigIdeas"
+import FeedBack2 from "../../components/FeedBack/Feed2/FeedBack2";
+import Cta from "../../components/CTA/CTA1/Cta";
 import Footer from "../../components/Footer/Footer";
-import { Head1 } from "../../components/HeaderMin/Headers";
 
 const Services = () => {
   return (

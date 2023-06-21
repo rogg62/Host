@@ -1,12 +1,12 @@
 import React from "react";
 import "../style.css";
-import {Header2} from "../../components/Header/Headers";
-import ListDomain from "../../components/ListDomain/ListDomain";
-import Table from "../../components/TableDomain/Table";
-import Domain from "../../components/CardsDomain/Domain";
-import FrequentAsk from "../../components/FrequentAsk/FrequentAsk";
-import Cta from "../../components/CTA/Cta"
-import Footer from "../../components/Footer/Footer"
+import { Header2 } from "../../components/Header/Header1/Headers";
+import ListDomain from "../../components/Lists/ListDomain/ListDomain";
+import CardsDomain from "../../components/Cards/CardsDomain/Domain"
+import Table from "../../components/Lists/TableDomain/Table";
+import FrequentAsk from "../../components/FrequentAsk/FrequentAsk"
+import Cta from "../../components/CTA/CTA1/Cta";
+import Footer from "../../components/Footer/Footer";
 
 const Hosting = () => {
   return (
@@ -14,9 +14,9 @@ const Hosting = () => {
       <Header2 />
       <ListDomain />
       <Table />
-      <Domain />
+      <CardsDomain />
       <FrequentAsk />
-      <Cta />
+      <Cta/>
       <Footer />
     </div>
   );

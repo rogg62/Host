@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import Menu from "../Menu/Menu";
+import Menu from "../../Menu/Menu";
 
-const Headee = () => {
+const Header3 = () => {
   return (
     <header id="headerAbout">
       <Menu />
@@ -23,4 +23,4 @@ const Headee = () => {
   );
 };
 
-export default Headee;
+export default Header3;

@@ -1,6 +1,6 @@
 import React from "react";
-import "../FeedBack/Comment/style.css";
-import Star from "../FeedBack/Comment/assets/Rating.svg";
+import "./style.css"
+import Star from "../Comment/assets/Rating.svg"
 
 const Comment = () => {
   return (

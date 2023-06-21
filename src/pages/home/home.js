@@ -1,13 +1,13 @@
 import React from "react";
 import "../style.css";
 //components
-import {Header1} from "../../components/Header/Headers"
-import CardsComponent from "../../components/Cards/CardsComponent";
-import Features from "../../components/Features/Features";
-import Business from "../../components/CardsBusiness/Business"
-import FeedBack from "../../components/FeedBack/FeedBack"
-import Cta from "../../components/CTA/Cta"
-import Footer from "../../components/Footer/Footer"
+import { Header1 } from "../../components/Header/Header1/Headers";
+import CardsComponent from "../../components/Cards/CardsProducts/CardsComponent";
+import Features from "../../components/Features/Features"
+import FeedBack from "../../components/FeedBack/Feed1/FeedBack";
+import Business from "../../components/Cards/CardsBusiness/Business";
+import Cta from "../../components/CTA/CTA1/Cta";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (

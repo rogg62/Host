@@ -2,8 +2,8 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //import Components
 import Home from "./pages/home/home";
-import Comment from "./components/Feed2/Comment";
-import Comment1 from "./components/FeedBack/Comment/Comment1";
+import Comment from "./components/FeedBack/Feed2/Comment";
+import Comment1 from "./components/FeedBack/Comment/Comment1"
 import Comment2 from "./components/FeedBack/Comment/Comment2";
 import Comment3 from "./components/FeedBack/Comment/Comment3";
 import Hosting from "./pages/hosting/hosting";

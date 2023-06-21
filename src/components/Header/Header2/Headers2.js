@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "./Header2";
 import React from "react";
 
 const Head1 = () => {

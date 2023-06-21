@@ -5,7 +5,7 @@ import {
   CardsFeatures,
   CardsFeatures2,
   CardsFeatures3,
-} from "./Cards/CardsFeatures";
+} from "../FeedBack/Feed1/Cards/CardsFeatures";
 
 const Features = () => {
   const [estado, setEstado] = useState(false);
