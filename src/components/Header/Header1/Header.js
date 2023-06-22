@@ -6,11 +6,6 @@ const Header = ({title}) => {
   return (
     <header id="header">
       <Menu />
-      <div id="headerEfeito1"></div>
-      <div id="headerEfeito2"></div>
-      <div id="headerEfeito3"></div>
-      <div id="headerEfeito4"></div>
-      <div id="headerEfeito5"></div>
 
       <div id="headerInfo">
         <h1>{title}</h1>

@@ -40,8 +40,18 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #menu {
     width: 1080px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  #menu {
+    width: 850px;
+  }
+
+  #menu nav {
+    gap: 20px;
   }
 }

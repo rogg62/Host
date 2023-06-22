@@ -51,7 +51,7 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #CardBig {
     width: 508px;
     height: 192px;
@@ -60,4 +60,22 @@
   #BigInfo {
     width: 370px;
   }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  #CardBig {
+    width: 420px;
+    height: auto;
+    padding-bottom: 5px;
+    gap: 10px;
+  }
+
+  #BigInfo {
+    width: auto;
+  }
+
+#BigInfo p {
+  width: 310px;
+  text-align: left;
+}
 }

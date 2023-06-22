@@ -123,13 +123,24 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #Features {
     width: 1080px;
   }
 
-  #FeaturesCards{
+  #FeaturesCards {
     width: 1080px;
     gap: 6px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  #Features {
+    width: 850px;
+  }
+
+  #FeaturesCards {
+    width: 850px;
+    gap: 10px;
   }
 }

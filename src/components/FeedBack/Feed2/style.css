@@ -124,7 +124,7 @@
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #FeedBack1 {
     width: 1080px;
   }
@@ -140,6 +140,32 @@
 
   #FeedContent1 a.active2 {
     width: 350px;
+    height: 120px;
+  }
+
+  #FeedContent1 #infoName h1 {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  #FeedBack1{
+    width: 850px;
+  }
+
+  #FeedContent1 {
+    width: 850px;
+    height: auto;
+    gap: 0;
+  }
+
+  #FeedContent1 nav a.pending2 {
+    width: 300px;
+    height: 120px;
+  }
+
+  #FeedContent1 a.active2 {
+    width: 300px;
     height: 120px;
   }
 

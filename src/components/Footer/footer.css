@@ -126,7 +126,7 @@ footer {
   color: #2e2e2e;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #footer1 {
     width: 1080px;
     justify-content: center;
@@ -144,5 +144,31 @@ footer {
   #box4,
   #box5 {
     width: 150px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  #footer1 {
+    width: 850px;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #footer2 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #box2,
+  #box3,
+  #box4,
+  #box5 {
+    width: 150px;
+    height: auto;
+  }
+
+  #footer1 a {
+    line-height: normal;
   }
 }

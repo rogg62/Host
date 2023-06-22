@@ -95,7 +95,7 @@
   border: none;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #CardList {
     width: 530px;
     justify-content: space-around;

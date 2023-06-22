@@ -110,8 +110,20 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #cta {
     width: 1080px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  #cta {
+    width: 850px;
+  }
+  #cta3 {
+    display: none;
+  }
+  #Container-cta {
+    width: 850px;
   }
 }

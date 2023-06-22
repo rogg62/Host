@@ -49,12 +49,29 @@
   color: #808080;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #Help {
-    width: 1080px;
+    width: 1070px;
+    justify-content: center;
+    gap: 10px;
   }
 
   #Help .div {
-    width: 535px;
+    width: 500px;
+  }
+
+  #Help .divInfo p {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  #Help {
+    width: 850px;
+    height: auto;
+  }
+
+  #Help .div {
+    width: 800px;
   }
 }

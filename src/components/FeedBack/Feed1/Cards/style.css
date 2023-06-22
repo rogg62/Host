@@ -100,8 +100,27 @@
   color: #ffffff;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   .CardFeatures {
     width: 345px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  .CardFeatures {
+    width: 290px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #CardFeaturesTable{
+    width: 90%;
+  }
+
+  #CardFeaturesTable span {
+    width: auto;
+    gap: 5px;
   }
 }

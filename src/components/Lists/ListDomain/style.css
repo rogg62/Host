@@ -65,7 +65,7 @@
   margin-top: 0;
 }
 
-@media screen and (min-width: 1080px) and (max-width: 1439px) {
+@media screen and (min-width: 1081px) and (max-width: 1440px) {
   #ListDomain {
     width: 1080px;
   }
@@ -73,5 +73,21 @@
   #boxListMenu {
     justify-content: center;
     gap: 8px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1080px) {
+  #ListDomain {
+    width: 850px;
+  }
+
+  #boxListMenu {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  #boxListMenu2 {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
