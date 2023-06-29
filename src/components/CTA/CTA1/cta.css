@@ -120,10 +120,36 @@
   #cta {
     width: 850px;
   }
+
   #cta3 {
     display: none;
   }
+
   #Container-cta {
     width: 850px;
+  }
+}
+
+@media screen and (min-width: 721px) and (max-width: 900px) {
+  #cta {
+    width: 700px;
+  }
+
+  #cta3 {
+    display: none;
+  }
+
+  #Container-cta {
+    width: 90%;
+  }
+
+  #Container-cta h1 {
+    font-size: 55px;
+    width: 100%;
+  }
+
+  #Container-cta p {
+    font-size: 19px;
+    width: 100%;
   }
 }

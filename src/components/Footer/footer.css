@@ -172,3 +172,23 @@ footer {
     line-height: normal;
   }
 }
+
+@media screen and (min-width: 721px) and (max-width: 900px) {
+  footer {
+    height: auto;
+  }
+
+  #footer1 {
+    width: 720px;
+    height: auto;
+    justify-content: left;
+    gap: 20px;
+    margin-top: 30px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  #footer2 {
+    width: 720px;
+  }
+}
