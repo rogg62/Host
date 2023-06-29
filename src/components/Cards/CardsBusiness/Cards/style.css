@@ -78,5 +78,33 @@
 
   #bCardTitle h1 {
     width: 95%;
+    text-align: left;
+  }
+
+  #bCardTitle p {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  #bCard {
+    width: 690px;
+    height: auto;
+    flex-direction: row;
+  }
+
+  #bCardImage {
+    height: 200px;
+    width: 400px;
+  }
+
+  #bCardTitle h1 {
+    width: 95%;
+    height: auto;
+    text-align: left;
+  }
+
+  #bCardTitle p {
+    text-align: left;
   }
 }

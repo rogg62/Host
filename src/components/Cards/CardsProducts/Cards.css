@@ -132,3 +132,21 @@
     row-gap: 54px;
   }
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  #CardsComponent {
+    width: 690px;
+    height: auto;
+  }
+
+  #containerCards {
+    width: 690px;
+    justify-content: center;
+    gap: 0px;
+    row-gap: 54px;
+  }
+
+  #title h1 {
+    width: 690px;
+  }
+}

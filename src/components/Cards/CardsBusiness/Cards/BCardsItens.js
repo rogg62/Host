@@ -13,7 +13,7 @@ const BCardsItens1 = ({ titleB, paragrafB }) => {
 const BCardsItens2 = ({ titleB, paragrafB }) => {
   return (
     <BCards
-      titleB="ㅤComplete PHP ㅤ Hosting"
+      titleB="Complete PHP Hosting"
       paragrafB="Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut"
     />
   );

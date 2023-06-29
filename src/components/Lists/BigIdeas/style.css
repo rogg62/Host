@@ -48,28 +48,32 @@
 
 @media screen and (min-width: 1081px) and (max-width: 1440px) {
   #Big {
-    width: 1080px;
+    width: 100%;
     height: auto;
   }
 
   #BigBox {
-    width: 1080px;
-    display: flex;
-    gap: 20px;
+    width: 100%;
+    align-items: center;
     justify-content: center;
+    height: auto;
   }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1080px) {
   #Big {
-    width: 850px;
+    width: 100%;
     height: auto;
   }
 
   #BigBox {
-    width: 850px;
-    display: flex;
-    gap: 3px;
+    width: 100%;
+    align-items: center;
     justify-content: center;
+    height: auto;
   }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  
 }

@@ -46,6 +46,6 @@
 @media screen and (min-width: 901px) and (max-width: 1080px) {
   #commentFeedBack {
     width: 500px;
-    height: 520px;
-  }
+    height: 400px;
+ }
 }

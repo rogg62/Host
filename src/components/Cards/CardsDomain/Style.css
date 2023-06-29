@@ -75,3 +75,21 @@
     gap: 20px;
   }
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  #CardsDomain {
+    width: 695px;
+    height: auto;
+  }
+
+  #BoxDomain {
+    width: 695px;
+    height: auto;
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  #titleDomain h1 {
+    width: 550px;
+  }
+}

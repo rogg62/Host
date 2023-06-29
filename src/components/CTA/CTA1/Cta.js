@@ -4,13 +4,6 @@ import "./cta.css";
 const Cta = () => {
   return (
     <section id="cta">
-      {/*Efeito do background*/}
-      <div id="cta1"></div>
-      <div id="cta2"></div>
-      <div id="cta3"></div>
-      <div id="cta4"></div>
-      {/*Final do efeito*/}
-
       <div id="Container-cta">
         <h1>30 Days money-back guarantee</h1>
         <p>
