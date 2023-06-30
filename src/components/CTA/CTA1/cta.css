@@ -79,13 +79,15 @@
   }
 }
 
-@media screen and (min-width: 721px) and (max-width: 900px) {
+@media screen and (min-width: 701px) and (max-width: 900px) {
   #cta {
     width: 700px;
+    border-radius: 16px;
   }
 
   #Container-cta {
     width: 90%;
+    height: auto;
   }
 
   #Container-cta h1 {

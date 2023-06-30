@@ -144,3 +144,19 @@ input:checked + .slider:before {
     gap: 10px;
   }
 }
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  #Features {
+    width: 690px;
+    height: auto;
+  }
+
+  #FeaturesTitle {
+    width: 690px;
+  }
+
+  #FeaturesCards {
+    width: 690px;
+    flex-direction: column;
+  }
+}

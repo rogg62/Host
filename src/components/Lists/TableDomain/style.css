@@ -163,3 +163,23 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  #Table {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #BoxTable {
+    width: 95%;
+    align-items: center;
+  }
+
+  .rowTable,
+  .rowTable2 {
+    width: 100%;
+  }
+}

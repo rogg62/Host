@@ -201,8 +201,52 @@
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
-  #FeedBack{
+  #FeedBack {
     width: 690px;
+    height: auto;
+  }
+
+  #FeedTitle {
+    width: 690px;
+    height: auto;
+  }
+
+  #FeedContent {
+    gap: 32px;
+    flex-direction: column;
+  }
+
+ #FeedContent nav #infoName{
+    width: 100%;
+  }
+
+  #FeedContent nav #infoName h1{
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedContent nav #infoName p{
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedContent #avatar {
+    display: none;
+  }
+
+  #FeedContent nav {
+    width: 100%;
+    gap: 0;
+    flex-direction: row;
+  }
+
+  #FeedContent nav a.active {
+    width: 33%;
+    text-align: center;
+  }
+
+  #FeedContent nav a.pending {
+    width: 33%;
+    text-align: center;
   }
 }
-  

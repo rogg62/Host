@@ -146,6 +146,10 @@
     row-gap: 54px;
   }
 
+  #title {
+    width: 690px;
+  }
+
   #title h1 {
     width: 690px;
   }

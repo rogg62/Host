@@ -88,3 +88,26 @@
   height: 96px;
 }
 
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  #FrequentAsk {
+    width: 100%;
+  }
+
+  #FrequentAskTitle {
+    width: 690px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+
+  .panel {
+    width: 90%;
+    height: auto;
+  }
+
+  .panel p {
+    width: 90%;
+    height: auto;
+  }
+}

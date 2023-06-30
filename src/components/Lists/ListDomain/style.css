@@ -91,3 +91,23 @@
     flex-wrap: wrap;
   }
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  #ListDomain {
+    width: 690px;
+  }
+
+  #boxListMenu {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  #titleListDomain {
+    width: 690px;
+  }
+
+  #boxListMenu2 {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

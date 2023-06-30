@@ -80,6 +80,10 @@
     height: auto;
   }
 
+  #businessTitle {
+    width: 690px;
+  }
+
   #CardsBusiness {
     height: auto;
     justify-content: center;

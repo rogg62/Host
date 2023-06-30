@@ -49,3 +49,10 @@
     height: 400px;
  }
 }
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+  #commentFeedBack{
+    width: 90%;
+    padding-left: 10px;
+  }
+}

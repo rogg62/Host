@@ -180,13 +180,13 @@ footer {
   }
 }
 
-@media screen and (min-width: 721px) and (max-width: 900px) {
+@media screen and (min-width: 701px) and (max-width: 900px) {
   footer {
     height: auto;
   }
 
   #footer1 {
-    width: 720px;
+    width: 690px;
     height: auto;
     justify-content: left;
     gap: 20px;
@@ -196,6 +196,7 @@ footer {
   }
 
   #footer2 {
-    width: 720px;
+    justify-content: center;
+    width: 690px;
   }
 }
