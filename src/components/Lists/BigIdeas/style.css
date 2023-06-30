@@ -74,6 +74,20 @@
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
-  
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  #Big {
+    width: 100%;
+    height: auto;
+  }
+
+  #BigTitle {
+    width: 690px;
+  }
+
+  #BigBox {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
 }

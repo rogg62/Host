@@ -73,3 +73,9 @@
     height: 100%;
   }
 }
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  #Table2{
+    display: none;
+  }
+}

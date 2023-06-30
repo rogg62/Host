@@ -75,3 +75,14 @@
     width: 800px;
   }
 }
+
+@media screen and (min-width: 701px) and (max-width: 900px) {
+  #Help {
+    width: 690px;
+    height: auto;
+  }
+
+  #Help .div {
+    width: 800px;
+  }
+}
