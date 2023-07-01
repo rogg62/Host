@@ -146,3 +146,48 @@
   color: #ffffff;
 }
 
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #header {
+    height: auto;
+  }
+
+  #headerInfo {
+    width: 90%;
+    height: 700px;
+    margin-top: 20px;
+  }
+
+  #headerInfo h1 {
+    width: 90%;
+  }
+
+  #headerInfo p {
+    width: 90%;
+  }
+
+  #search {
+    width: 450px;
+  }
+
+  #search button {
+    width: 110px;
+  }
+
+  #search input {
+    width: 430px;
+    padding-left: 20px;
+  }
+
+  #search #select {
+    right: 125px;
+  }
+
+  #priceDomain {
+    width: 70%;
+    height: auto;
+    gap: 0;
+    column-gap: 7px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+  }
+}

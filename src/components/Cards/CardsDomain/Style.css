@@ -80,7 +80,6 @@
   #CardsDomain {
     width: 695px;
     height: auto;
-
   }
 
   #BoxDomain {
@@ -90,7 +89,37 @@
     justify-content: space-between;
   }
 
+  #titleDomain {
+    width: 100%;
+  }
+
   #titleDomain h1 {
     width: 550px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #CardsDomain {
+    width: 100%;
+    height: auto;
+  }
+
+  #BoxDomain {
+    width: 100%;
+    height: auto;
+    gap: 0;
+    justify-content: center;
+  }
+
+  #titleDomain {
+    width: 100%;
+  }
+
+  #titleDomain h1 {
+    width: 90%;
+  }
+
+  #titleDomain p{
+    width: 90%;
   }
 }

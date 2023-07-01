@@ -183,3 +183,39 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #Table {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #BoxTable {
+    width: 95%;
+  }
+
+  #TitleTable {
+    width: 100%;
+  }
+
+  #TitleTable div h1 {
+    font-size: 20px;
+  }
+
+  .rowTable,
+  .rowTable2 {
+    width: 100%;
+  }
+
+  .rowTable div button {
+    width: 80%;
+  }
+
+  .rowTable2 div button {
+    width: 80%;
+  }
+}

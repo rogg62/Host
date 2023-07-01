@@ -115,3 +115,31 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #FrequentAsk {
+    width: 100%;
+  }
+
+  #FrequentAskTitle {
+    width: 100%;
+  }
+
+  #FrequentAskTitle p {
+    width: 85%;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+
+  .panel {
+    width: 90%;
+    height: auto;
+  }
+
+  .panel p {
+    height: auto;
+    width: 90%;
+  }
+}
