@@ -200,7 +200,7 @@
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 701px) and (max-width: 900px) {
   #FeedBack {
     width: 690px;
     height: auto;
@@ -216,16 +216,16 @@
     flex-direction: column;
   }
 
- #FeedContent nav #infoName{
+  #FeedContent nav #infoName {
     width: 100%;
   }
 
-  #FeedContent nav #infoName h1{
+  #FeedContent nav #infoName h1 {
     width: 100%;
     height: auto;
   }
 
-  #FeedContent nav #infoName p{
+  #FeedContent nav #infoName p {
     width: 100%;
     height: auto;
   }
@@ -247,6 +247,60 @@
 
   #FeedContent nav a.pending {
     width: 33%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #FeedBack {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedTitle {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedContent {
+    width: 100%;
+    height: auto;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  #FeedContent nav #infoName {
+    width: 100%;
+  }
+
+  #FeedContent nav #infoName h1 {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedContent nav #infoName p {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedContent #avatar {
+    display: none;
+  }
+
+  #FeedContent nav {
+    width: 100%;
+    gap: 0;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  #FeedContent nav a.active {
+    width: 30%;
+    text-align: center;
+  }
+
+  #FeedContent nav a.pending {
+    width: 30%;
     text-align: center;
   }
 }

@@ -174,7 +174,7 @@
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 701px) and (max-width: 900px) {
   #FeedBack1 {
     width: 690px;
     height: auto;
@@ -224,3 +224,67 @@
     text-align: center;
   }
 }
+
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #FeedBack1 {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedTitle1 {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedTitle1 h1{
+    width: 90%;
+  }
+
+  #FeedTitle1 p{
+    width: 90%;
+  }
+
+  #FeedContent1 {
+    width: 100%;
+    height: auto;
+    gap: 32px;
+    flex-direction: column;
+  }
+
+  #FeedContent1 nav #infoName {
+    width: 100%;
+  }
+
+  #FeedContent1 nav #infoName h1 {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedContent1 nav #infoName p {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedContent1 #avatar {
+    display: none;
+  }
+
+  #FeedContent1 nav {
+    width: 100%;
+    gap: 0;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  #FeedContent1 nav a.active2 {
+    width: 30%;
+    text-align: center;
+  }
+
+  #FeedContent1 nav a.pending2 {
+    width: 30%;
+    text-align: center;
+  }
+}
+

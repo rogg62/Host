@@ -154,3 +154,29 @@
     width: 690px;
   }
 }
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #CardsComponent {
+    width: 100%;
+    height: auto;
+  }
+
+  #containerCards {
+    width: 100%;
+    justify-content: center;
+    gap: 0px;
+    row-gap: 54px;
+  }
+
+  #title {
+    width: 100%;
+  }
+
+  #title h1 {
+    width: 90%;
+  }
+
+  #title p{
+    width: 90%;
+  }
+}

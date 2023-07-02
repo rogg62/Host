@@ -40,42 +40,61 @@
   margin: 0;
 }
 
-#headerAbout #Search{
-    position: relative;
-    width: 608px;
-    margin: 0;
+#headerAbout #Search {
+  position: relative;
+  width: 608px;
+  margin: 0;
 }
 
-#headerAbout #Search button{
-    position: absolute;
-    width: 160px;
-    height: 48px;
-    right: 8px;
-    top: 8px;
-    background: #10c9ff;
-    border: none;
-    border-radius: 40px;
-  
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #ffffff;
+#headerAbout #Search button {
+  position: absolute;
+  width: 160px;
+  height: 48px;
+  right: 8px;
+  top: 8px;
+  background: #10c9ff;
+  border: none;
+  border-radius: 40px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
-#headerAbout #Search input{
-    width: 584px;
-    height: 64px;
-    background: #ffffff;
-    border: none;
-    opacity: 0.3;
-    border-radius: 40px;
-    padding: 0 0 0 24px;
+#headerAbout #Search input {
+  width: 584px;
+  height: 64px;
+  background: #ffffff;
+  border: none;
+  opacity: 0.3;
+  border-radius: 40px;
+  padding: 0 0 0 24px;
 
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #headerAbout {
+    height: 680px;
+  }
+
+  #headerAbout div {
+    width: 90%;
+    height: auto;
+  }
+
+  #headerAbout #Search {
+    width: 450px;
+  }
+
+  #headerAbout #Search input {
+    width: 450px;
+  }
 }

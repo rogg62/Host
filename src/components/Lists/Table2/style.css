@@ -75,7 +75,13 @@
 }
 
 @media screen and (min-width: 701px) and (max-width: 900px) {
-  #Table2{
+  #Table2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #Table2 {
     display: none;
   }
 }

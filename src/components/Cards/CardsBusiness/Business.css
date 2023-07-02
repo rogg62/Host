@@ -96,3 +96,30 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #business {
+    width: 100%;
+    height: auto;
+  }
+
+  #businessTitle {
+    width: 100%;
+  }
+
+  #CardsBusiness {
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #businessTitle h1 {
+    width: 90%;
+    height: auto;
+  }
+
+  #businessTitle p{
+    width: 90%;
+  }
+}
