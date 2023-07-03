@@ -234,3 +234,40 @@ footer {
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  footer {
+    width: 100%;
+    height: auto;
+  }
+
+  #footer1 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  #footer1 #box1 {
+    width: 80%;
+    height: auto;
+  }
+
+  #footer1 #box2,
+  #box3,
+  #box4,
+  #box5 {
+    width: 80%;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  #footer2 {
+    width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+}

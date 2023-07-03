@@ -110,6 +110,7 @@
   #Container-cta {
     width: 90%;
     height: 750px;
+    border: 1px solid black;
   }
 
   #Container-cta h1{
@@ -121,3 +122,27 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #cta{
+    width: 90%;
+    height: 590px;
+  }
+
+  #Container-cta {
+    width: 90%;
+    height: 750px;
+  }
+
+  #Container-cta h1{
+    width: 100%;
+    font-size: 40px;
+    line-height: normal;
+  }
+    
+  #Container-cta p{
+    width: 100%;
+    height: auto;
+  }
+}
+

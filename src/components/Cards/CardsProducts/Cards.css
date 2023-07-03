@@ -176,7 +176,44 @@
     width: 90%;
   }
 
-  #title p{
+  #title p {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #CardsComponent {
+    width: 100%;
+    height: auto;
+  }
+
+  #containerCards {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #title {
+    width: 100%;
+  }
+
+  #title h1 {
+    width: 90%;
+  }
+
+  #title p {
+    width: 90%;
+  }
+
+  #Card {
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+    padding-bottom: 10px;
+  }
+
+  #CardInfo p {
     width: 90%;
   }
 }

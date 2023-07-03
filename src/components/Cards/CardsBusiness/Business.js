@@ -16,7 +16,6 @@ const Business = () => {
     <BCardsItens1 />
     <BCardsItens2 />
     <BCardsItens3 />
-
       </div>
     </section>
   );

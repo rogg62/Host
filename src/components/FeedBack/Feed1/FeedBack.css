@@ -258,7 +258,7 @@
   }
 
   #FeedTitle {
-    width: 100%;
+    width: 90%;
     height: auto;
   }
 
@@ -302,5 +302,35 @@
   #FeedContent nav a.pending {
     width: 30%;
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #FeedBack {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedTitle {
+    width: 95%;
+    height: auto;
+  }
+
+  #FeedTitle h1 {
+    font-size: 45px;
+  }
+
+  #FeedTitle p {
+    width: 95%;
+  }
+
+  #FeedContent {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  #FeedContent nav {
+    display: none;
   }
 }

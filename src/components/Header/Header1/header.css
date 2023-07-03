@@ -191,3 +191,57 @@
     flex-wrap: wrap;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #header {
+    height: auto;
+  }
+
+  #headerInfo {
+    width: 90%;
+    height: 900px;
+    margin-top: 50px;
+  }
+
+  #headerInfo h1 {
+    width: 90%;
+    font-size: 45px;
+    line-height: normal;
+  }
+
+  #headerInfo p {
+    width: 90%;
+  }
+
+  #search {
+    width: 335px;
+  }
+
+  #search button {
+    width: 110px;
+  }
+
+  #search input {
+    width: 325px;
+    padding-left: 10px;
+  }
+
+  #search input::placeholder {
+    color: transparent;
+  }
+
+  #search #select {
+    right: 125px;
+  }
+
+  #priceDomain {
+    width: 330px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 0;
+    column-gap: 7px;
+    row-gap: 10px;
+  }
+}

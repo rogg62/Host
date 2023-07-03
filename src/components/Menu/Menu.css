@@ -66,3 +66,13 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #menu{
+    width: 100%;
+  }
+
+  #menu nav {
+    display: none;
+  }
+}

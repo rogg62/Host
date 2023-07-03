@@ -64,3 +64,11 @@
     padding-left: 10px;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #commentFeedBack{
+    width: 85%;
+    height: auto;
+    padding-left: 10px;
+  }
+}

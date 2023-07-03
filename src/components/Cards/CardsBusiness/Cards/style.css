@@ -108,3 +108,50 @@
     text-align: left;
   }
 }
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  #bCard {
+    width: 95%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  #bCardImage {
+    height: 200px;
+    width: 400px;
+  }
+
+  #bCardTitle h1 {
+    width: 95%;
+    height: auto;
+    text-align: left;
+  }
+
+  #bCardTitle p {
+    text-align: left;
+  }
+}
+
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #bCard {
+    width: 95%;
+    height: 500px;
+  }
+
+  #bCardImage {
+    height: 200px;
+    width: 300px;
+  }
+
+  #bCardTitle h1 {
+    width: 85%;
+    height: auto;
+    text-align: left;
+  }
+
+  #bCardTitle p {
+    text-align: left;
+    width: 85%;
+  }
+}

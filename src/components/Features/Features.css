@@ -184,3 +184,27 @@ input:checked + .slider:before {
     flex-direction: column;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #Features {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeaturesTitle {
+    width: 100%;
+  }
+
+  #FeaturesTitle h1{
+    width: 90%;
+  }
+
+  #FeaturesTitle p{
+    width: 90%;
+  }
+
+  #FeaturesCards {
+    width: 100%;
+    flex-direction: column;
+  }
+}

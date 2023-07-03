@@ -115,7 +115,26 @@
     align-items: center;
   }
 
-  #CardFeaturesTable{
+  #CardFeaturesTable {
+    width: 90%;
+  }
+
+  #CardFeaturesTable span {
+    width: auto;
+    gap: 5px;
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  .CardFeatures {
+    width: 290px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #CardFeaturesTable {
     width: 90%;
   }
 

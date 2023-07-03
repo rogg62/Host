@@ -123,3 +123,32 @@
     width: 90%;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #business {
+    width: 100%;
+    height: auto;
+  }
+
+  #businessTitle {
+    width: 100%;
+  }
+
+  #CardsBusiness {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #businessTitle h1 {
+    width: 95%;
+    font-size: 43px;
+    height: auto;
+  }
+
+  #businessTitle p{
+    width: 95%;
+  }
+}
