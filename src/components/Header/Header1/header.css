@@ -199,7 +199,7 @@
 
   #headerInfo {
     width: 90%;
-    height: 900px;
+    height: 800px;
     margin-top: 50px;
   }
 
@@ -240,8 +240,6 @@
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
-    gap: 0;
-    column-gap: 7px;
-    row-gap: 10px;
+    gap: 10px;
   }
 }
