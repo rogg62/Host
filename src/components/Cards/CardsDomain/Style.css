@@ -124,3 +124,29 @@
   }
 }
 
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #CardsDomain {
+    width: 100%;
+    height: auto;
+  }
+
+  #BoxDomain {
+    width: 100%;
+    height: auto;
+    gap: 0;
+    justify-content: center;
+  }
+
+  #titleDomain {
+    width: 100%;
+  }
+
+  #titleDomain h1 {
+    width: 95%;
+    font-size: 45px;
+  }
+
+  #titleDomain p{
+    width: 90%;
+  }
+}

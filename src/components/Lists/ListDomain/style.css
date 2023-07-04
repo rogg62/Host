@@ -140,3 +140,32 @@
     flex-wrap: wrap;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #ListDomain {
+    width: 100%;
+  }
+
+  #boxListMenu {
+    justify-content: center;
+    gap: 8px;
+  }
+
+  #titleListDomain {
+    width: 100%;
+    gap: 20px;
+  }
+
+  #titleListDomain h1{
+    width: 90%;
+  }
+
+  #titleListDomain h1{
+    width: 90%;
+  }
+
+  #boxListMenu2 {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

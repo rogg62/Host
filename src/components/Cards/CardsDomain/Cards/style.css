@@ -97,3 +97,21 @@
   }
 }
 
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #Domain {
+    width: 340px;
+    height: 470px;
+    justify-content: flex-start;
+  }
+
+  #DomainImg {
+    width: 100%;
+    height: 230px;
+  }
+
+  #DomainInfo h1 {
+    width: auto;
+    height: auto;
+  }
+}
+  

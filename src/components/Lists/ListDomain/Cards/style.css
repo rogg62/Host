@@ -104,3 +104,11 @@
     gap: 0;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #CardList {
+    width: 95%;
+    justify-content: space-around;
+    gap: 0;
+  }
+}

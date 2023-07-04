@@ -219,3 +219,9 @@
     width: 80%;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #Table {
+    display: none;
+  }
+}

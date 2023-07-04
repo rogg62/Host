@@ -127,8 +127,8 @@
 
 @media screen and (min-width: 351px) and (max-width: 500px) {
   .CardFeatures {
-    width: 290px;
-    padding-bottom: 10px;
+    width: 300px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
