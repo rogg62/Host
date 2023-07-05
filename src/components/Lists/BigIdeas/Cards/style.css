@@ -93,3 +93,27 @@
     text-align: left;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #CardBig {
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+    gap: 20px;
+    border: #ebebeb 1px solid;
+  }
+
+  #BigInfo {
+    width: auto;
+  }
+
+  #BigInfo h1{
+    text-align: center;
+  }
+
+  #BigInfo p {
+    width: 95%;
+    text-align: center;
+  }
+}

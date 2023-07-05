@@ -117,3 +117,30 @@
     height: auto;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #Big {
+    width: 100%;
+    height: auto;
+  }
+
+  #BigTitle {
+    width: 100%;
+  }
+
+  #BigTitle h1{
+    width: 90%;
+  }
+
+  #BigTitle p{
+    width: 90%;
+  }
+
+  #BigBox {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+}

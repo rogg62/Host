@@ -53,3 +53,15 @@
     height: 350px;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #headerMenu {
+    height: auto;
+  }
+
+  #headerMenuTitle {
+    margin-top: 50px;
+    height: auto;
+    width: 90%;
+  }
+}

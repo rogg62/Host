@@ -288,3 +288,33 @@
   }
 }
 
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #FeedBack1 {
+    width: 100%;
+    height: auto;
+  }
+
+  #FeedTitle1 {
+    width: 95%;
+    height: auto;
+  }
+
+  #FeedTitle1 h1 {
+    font-size: 45px;
+  }
+
+  #FeedTitle1 p {
+    width: 95%;
+  }
+
+  #FeedContent1 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  #FeedContent1 nav {
+    display: none;
+  }
+}

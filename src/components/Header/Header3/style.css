@@ -98,3 +98,36 @@
     width: 450px;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #headerAbout {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+      padding-bottom: 50px;
+  }
+
+  #headerAbout div {
+    margin: 0;
+    width: 90%;
+    height: auto;
+  }
+
+  #headerAbout div h1{
+    font-size: 50px;
+    line-height: normal;
+  }
+
+
+  #headerAbout #Search {
+    width: 300px;
+  }
+
+  #headerAbout #Search button {
+    width: 95px;
+  }
+
+  #headerAbout #Search input {
+    width: 300px;
+  }
+}

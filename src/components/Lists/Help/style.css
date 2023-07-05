@@ -101,3 +101,26 @@
     width: 90%;
   }
 }
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+  #Help {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  #Help .div {
+    width: 95%;
+    height: auto;
+  }
+
+  #Help .div .divInfo {
+    width: 70%;
+  }
+
+  #Help .div .divInfo p {
+    width: 100%;
+  }
+}
