@@ -8,7 +8,7 @@
   background: linear-gradient(97.1deg, #3c36ce 22.14%, #a64eee 106.45%);
 }
 
-#headerAbout div {
+#headerAbout #headerAbout-Title {
   width: 712px;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
   margin-top: 80px;
 }
 
-#headerAbout div h1 {
+#headerAbout #headerAbout-Title h1 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -29,7 +29,7 @@
   margin: 0;
 }
 
-#headerAbout div p {
+#headerAbout #headerAbout-Title p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -85,7 +85,7 @@
     height: 680px;
   }
 
-  #headerAbout div {
+  #headerAbout #headerAbout-Title {
     width: 90%;
     height: auto;
   }
@@ -103,31 +103,30 @@
   #headerAbout {
     height: auto;
     align-items: center;
-    justify-content: center;
-      padding-bottom: 50px;
+    padding-bottom: 50px;
   }
 
-  #headerAbout div {
+  #headerAbout #headerAbout-Title {
     margin: 0;
     width: 90%;
     height: auto;
+    margin-top: 60px;
   }
 
-  #headerAbout div h1{
+  #headerAbout #headerAbout-Title h1 {
     font-size: 50px;
     line-height: normal;
   }
 
-
   #headerAbout #Search {
-    width: 300px;
+    width: 100%;
   }
 
   #headerAbout #Search button {
-    width: 95px;
+    width: 90px;
   }
 
   #headerAbout #Search input {
-    width: 300px;
+    width: 290px;
   }
 }

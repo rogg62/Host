@@ -7,7 +7,7 @@ const Header3 = () => {
     <header id="headerAbout">
       <Menu />
 
-      <div>
+      <div id="headerAbout-Title">
         <h1>We’re here to Help</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
