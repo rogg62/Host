@@ -108,7 +108,7 @@
 
   #headerAbout #headerAbout-Title {
     margin: 0;
-    width: 90%;
+    width: 350px;
     height: auto;
     margin-top: 60px;
   }
@@ -119,7 +119,7 @@
   }
 
   #headerAbout #Search {
-    width: 100%;
+    width: 350px;
   }
 
   #headerAbout #Search button {
@@ -127,6 +127,16 @@
   }
 
   #headerAbout #Search input {
-    width: 93.3%;
+    width: 325px;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  #headerAbout{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

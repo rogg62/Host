@@ -1,12 +1,12 @@
 import React from "react";
 import "./header.css";
-import Menu
- from "../../Menu/Menu";
-const Header = ({title}) => {
+import Menu from "../../Menu/Menu";
+import Responsivel from "../../Menu/MenuResponsivel/Responsivel";
+const Header = ({ title }) => {
   return (
     <header id="header">
+      <Responsivel />
       <Menu />
-
       <div id="headerInfo">
         <h1>{title}</h1>
         <p>
